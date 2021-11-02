@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- [Go to solution](https://your-solution-url.com)
+- [Go to solution](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-/hub/3column-preview-card-responsive-page-using-html-css-and-flexbox-rWKsxzSXs)
 - [Go to live site](https://risclover.github.io/3-Column_Preview_Card/)
 
 ## My process
