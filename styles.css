@@ -1,5 +1,4 @@
 /* Page  (Everything) */
-
 body, html {
     background-color: hsl(0, 0%, 95%);
     font-family: 'Lexend Deca', sans-serif;
@@ -8,9 +7,7 @@ body, html {
 
 
 
-
 /* Containers */
-
 #main {
     display: flex;
     flex-direction: column;
@@ -21,8 +18,7 @@ body, html {
 .container {
     display: flex;
     flex-direction: column;
-    width: 60vw;
-    height: 95vw;
+    width: 60%;
     padding: 45px 50px;
     margin: 0 auto;
 }
@@ -43,11 +39,9 @@ body, html {
 
 
 
-
 /* Text */
-
 h1 {
-    font-size: 2.4rem;
+    font-size: 2.4em;
     font-family: 'Big Shoulders Display', cursive;
     font-weight: 700;
     color: hsl(0, 0%, 95%);
@@ -65,26 +59,22 @@ p {
 
 
 
-
 /* Images */
-
 img {
-    width: 18vw;
+    width: 60px;
 }
 
 
 
-
 /* Buttons */
-
 button {
     font-family: 'Lexend Deca', sans-serif;
     border: 2px solid white;
     border-radius: 40px;
-    width: 38vw;
-    height: 48px;
+    width: 140px;
+    height: 50px;
     margin-top: 30px;
-    font-size: .95em;
+    font-size: .9em;
 }
 
 #sedan-button {
@@ -120,20 +110,95 @@ button {
 
 
 /* Footer/Credits */
-
 .attribution {
     color: black;
     text-align: center;
-    font-size: 3vw;
-    margin: 10px 20px;
+    font-size: 12px;
+    margin: -70px 20px 70px 20px;
 }
 
 a {
-    color:hsl(179, 100%, 13%);
-    color:hsl(184, 100%, 22%);
+    color:hsl(179, 100%, 35%);
     text-decoration: none;
 }
 
 a:hover {
-    color:hsl(179, 100%, 13%);
+    color:hsl(179, 100%, 16%);
+}
+
+
+
+@media screen and (min-width: 1000px) {
+   
+    #main {
+        display: flex;
+        flex-direction: row;
+        width: 65%;
+        border-radius: 5px;
+        margin: 150px auto 0 auto;
+    }
+
+    .container {
+        padding: 5% 6.5% 5% 5%;
+        margin: 0 auto;
+        border-radius: 0;
+    }
+
+    #sedan {
+        border-radius: 8px 0 0 8px;
+    }
+
+    #suv {
+        border-radius: 0;
+    }
+
+    #luxury {
+        border-radius: 0 8px 8px 0;
+    }
+
+    button {
+        margin-top: 75px;
+    }
+
+    .attribution {
+        margin: 10px 10px 100px 10px;
+    }
+
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 999px) {
+    /* Containers */
+    #main {
+        display: flex;
+        flex-direction: column;
+        margin: 90px auto 10px auto;
+        width: 600px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        padding: 45px 50px;
+        margin: 0 auto;
+    }
+
+    #sedan {
+        background-color: hsl(31, 77%, 52%);
+        border-radius: 8px 8px 0 0;
+    }
+
+    #suv {
+        background-color: hsl(184, 100%, 22%);
+    }
+
+    #luxury {
+        background-color: hsl(179, 100%, 13%);
+        border-radius: 0 0 8px 8px;
+    }
+
+    .attribution {
+        margin: 10px 10px 90px 10px;
+    }
 }
