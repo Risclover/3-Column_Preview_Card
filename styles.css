@@ -1,0 +1,139 @@
+/* Page  (Everything) */
+
+body, html {
+    background-color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+    line-height: 1.8;
+}
+
+
+
+
+/* Containers */
+
+#main {
+    display: flex;
+    flex-direction: column;
+    margin: 90px auto 75px auto;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    height: 95vw;
+    padding: 45px 50px;
+    margin: 0 auto;
+}
+
+#sedan {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 8px 8px 0 0;
+}
+
+#suv {
+    background-color: hsl(184, 100%, 22%);
+}
+
+#luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 0 8px 8px;
+}
+
+
+
+
+/* Text */
+
+h1 {
+    font-size: 2.4rem;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+    text-transform: uppercase;
+    padding: 0;
+    margin: 20px 0 15px 0;
+}
+
+p {
+    font-size: .9em;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+/* Images */
+
+img {
+    width: 18vw;
+}
+
+
+
+
+/* Buttons */
+
+button {
+    font-family: 'Lexend Deca', sans-serif;
+    border: 2px solid white;
+    border-radius: 40px;
+    width: 38vw;
+    height: 48px;
+    margin-top: 30px;
+    font-size: .95em;
+}
+
+#sedan-button {
+    color: hsl(31, 77%, 52%);
+}
+
+#sedan-button:hover {
+    background-color:hsla(0, 0%, 95%, 0);
+    color: hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+
+#suv-button {
+    color: hsl(184, 100%, 22%);
+}
+
+#suv-button:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+
+#luxury-button {
+    color: hsl(179, 100%, 13%);
+}
+
+#luxury-button:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+
+
+
+/* Footer/Credits */
+
+.attribution {
+    color: black;
+    text-align: center;
+    font-size: 3vw;
+    margin: 10px 20px;
+}
+
+a {
+    color:hsl(179, 100%, 13%);
+    color:hsl(184, 100%, 22%);
+    text-decoration: none;
+}
+
+a:hover {
+    color:hsl(179, 100%, 13%);
+}
